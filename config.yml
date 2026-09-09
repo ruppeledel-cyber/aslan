@@ -1,22 +1,22 @@
 backend:
   name: github
-  repo: REEMPLAZAR_USUARIO/aslan
+  repo: ruppeledel-cyber/aslan
   branch: main
-
-media_folder: ""
-public_folder: ""
-
+media_folder: "/"
+public_folder: "/"
 collections:
-  - name: site
-    label: Página de Aslan
+  - name: contenido
+    label: Contenido de Aslan
     files:
-      - label: Datos de Aslan
-        name: aslan
-        file: content.json
+      - file: content.json
+        label: Datos de Aslan
+        name: datos
         fields:
-          - {label: Nombre, name: name, widget: string}
+          - {label: Nombre, name: nombre, widget: string}
+          - {label: Foto 1, name: foto1, widget: image}
+          - {label: Foto 2, name: foto2, widget: image}
+          - {label: Foto 3, name: foto3, widget: image}
           - {label: Presentación, name: intro, widget: text}
-          - {label: Pelaje, name: coat, widget: string}
-          - {label: Descripción, name: description, widget: text}
-          - {label: Fotos, name: photos, widget: list, field: {label: Foto, name: photo, widget: image}}
+          - {label: Pelaje, name: pelaje, widget: string}
+          - {label: Descripción, name: descripcion, widget: text}
           - {label: WhatsApp, name: whatsapp, widget: string}
