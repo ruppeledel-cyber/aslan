@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aslan</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;padding:30px 16px;font-family:Arial,sans-serif;color:#252525;background:#fff}
+.contenedor{max-width:430px;margin:auto;background:#fff;padding:22px;border-radius:28px;box-shadow:0 8px 28px rgba(0,0,0,.09)}
+h1{text-align:center;font-size:38px;margin:4px 0 22px}
+.galeria{overflow:hidden;border-radius:22px}
+.fotos{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
+.fotos::-webkit-scrollbar{display:none}
+.fotos img{min-width:100%;width:100%;aspect-ratio:1/1;object-fit:cover;scroll-snap-align:center;border-radius:22px}
+.indicador{text-align:center;color:#888;font-size:15px;margin-top:12px}
+.intro{text-align:center;line-height:1.55;margin:27px 4px 0;font-size:18px}
+.seccion{margin-top:30px}
+.seccion h2{font-size:22px;margin:0 0 12px}
+.seccion p{line-height:1.6;margin:0;font-size:17px}
+.boton{display:block;text-decoration:none;text-align:center;padding:17px 14px;margin-top:15px;border-radius:18px;font-weight:bold;font-size:18px}
+.whatsapp{background:#25D366;color:white}
+</style>
+</head>
+<body>
+<div class="contenedor">
+<h1>Aslan</h1>
+<div class="galeria"><div class="fotos">
+<img src="aslan1.jpg" alt="Aslan">
+<img src="aslan2.jpg" alt="Aslan">
+<img src="aslan3.jpg" alt="Aslan">
+</div></div>
+<div class="indicador">Deslizá para ver más fotos →</div>
+<div class="intro">Hola, soy Aslan. Siempre salgo a pasear y vuelvo a mi casa.</div>
+<div class="seccion"><h2>Sobre mí:</h2>
+<p>Pelaje: Atigrado (anaranjado con blanco)<br>
+Gato macho, castrado, sin afecciones.</p></div>
+<div class="seccion"><h2>Contactar con mi familia:</h2>
+<a class="boton whatsapp" href="https://wa.me/5492966446811" target="_blank" rel="noopener">WhatsApp - Solo mensajes</a>
+</div></div>
+</body>
+</html>
