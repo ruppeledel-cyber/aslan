@@ -1,0 +1,12 @@
+{
+  "name": "Aslan",
+  "intro": "Hola, soy Aslan. Siempre salgo a pasear y vuelvo a mi casa.",
+  "coat": "Atigrado (anaranjado con blanco)",
+  "description": "Gato macho, castrado, sin afecciones.",
+  "photos": [
+    "aslan1.jpg",
+    "aslan2.jpg",
+    "aslan3.jpg"
+  ],
+  "whatsapp": "5492966446811"
+}
